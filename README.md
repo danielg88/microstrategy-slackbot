@@ -5,7 +5,10 @@ This is a Slack chatbot that connects to your MicroStrategy server and answer qu
 
 You can ask for attributes, metrics and specific attribute elements from the dataset, by default the data is presented as text but you can also ask the bot for a graph. The bot responds to direct messages as well as channels in wich it is invited to and mentioned.
 
-This code was written for a demo and it's not fully finished or tested. Missing functionality includes: automatically refresh data, graphing options and support for more than one dataset/project.
+This code was written for a demo and it's not fully finished or tested.
+Missing functionality includes: automatically refresh data, graphing options and support for more than one dataset/project.
+
+**Project uses slackclient V1 and needs to be updated to work with V2**
 
 Requirements
 ------------
